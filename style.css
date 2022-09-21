@@ -56,6 +56,7 @@ li{
 
 main{
     margin-top: 5%;
+    margin-bottom: 70%;
 }
 
 .img-model{
@@ -85,11 +86,11 @@ main{
     padding: 5px;
     position: absolute;
     top: -75%;
-    left: 22%;
+    left: 20%;
 }
 
 .bar-red{
-    color: red;
+    color: rgb(0, 0, 0);
     text-decoration: line-through;
 }
 
@@ -109,26 +110,62 @@ main{
     right: 20%;
 }
 
+/* second riga */
+
 .second-row{
     margin-top: 30%;
     position:relative;
 }
 
+.quarto-elemento{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    display: inline-block;
+}
 
+.quinto-elemento{
+    position: absolute;
+    left: 43.5%;
+    top: 70%;
+    display: inline-block;
+}
 
+.sesto-elemento{
+    position: absolute;
+    right: 20%;
+    top: 70%;
+    display: inline-block;
+}
 
+.red-mark1{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 75%;
+}
 
+.green-mark1{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
 
+.green-mark2{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 75%;
+}
 
-
-
-
-
-
-
-
-
-
+.red{
+    color: red;
+}
 
 footer{
     background-color: #1a1a1a;
@@ -141,10 +178,6 @@ footer{
     width: 80%;
     margin: auto;
     padding: 50px;
-}
-
-.bottom{
-
 }
 
 .item-group{
