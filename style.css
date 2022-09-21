@@ -3,3 +3,113 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* intestazione */
+
+header{
+    background-color: #ff6900;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+li{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.sex{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    width: 125px;
+}
+
+#logo-color{
+    color: white;
+}
+
+/* corpo */
+
+main{
+    margin-top: 5%;
+}
+
+.img-model{
+    height: 350px;
+}
+
+.first-row{
+    position: relative;
+    margin-top: 5%;
+}
+
+.description{
+    position: relative;
+}
+
+.red-mark{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: -75%;
+}
+
+.green-mark{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: -75%;
+    left: 22%;
+}
+
+.bar-red{
+    color: red;
+    text-decoration: line-through;
+}
+
+.first-element{
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+}
+
+.second-element{
+    position: absolute;
+    left: 43.5%;
+}
+
+.third-element{
+    position: absolute;
+    right: 20%;
+}
+
+.second-row{
+    position: relative;
+    margin-top: 15%;
+}
