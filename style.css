@@ -110,6 +110,56 @@ main{
 }
 
 .second-row{
-    position: relative;
-    margin-top: 15%;
+    margin-top: 30%;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1a1a1a;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+.bottom{
+
+}
+
+.item-group{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
+
+#srl{
+    color: white;
+}
+
+.item-bottom{
+    font-size: small;
+    padding-right: 10px;
 }
